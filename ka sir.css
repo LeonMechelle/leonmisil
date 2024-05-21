@@ -1,0 +1,307 @@
+:root {
+
+    --bg1: #2d2a2b;
+    --bg2: rgb(44, 42, 42);
+    --brand: #250047;
+    --whit: rgb(235, 235, 235);
+    --p: rgb(16, 150, 150);
+    --body: rgb(190, 30, 30);
+}   
+
+* {
+    font-family: sans-serif;
+}
+.text-center {
+    font-size: large;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* ############################################## NAVBAR ########################################################## */
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    font-weight: bold;
+    color: crimson;
+    text-shadow: 0 0 20px #ff0000, 0 0 40px #bc0000;
+    transition: all 0.4s ease;
+}
+
+.navbar .navbar-brand:hover {
+    color: crimson;
+    filter: drop-shadow(0 0 0.75rem crimson);
+    text-shadow: 0 0 20px #ff0000, 0 0 40px #bc0000;
+    transition: all 0.4s ease;
+}
+
+.navbar .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: crimson;
+    text-shadow: 0 0 20px #ff0000, 0 0 40px #bc0000;
+  }
+/* ################################################## END NAVBAR ######################################################## */
+
+
+
+/* ################################################## BANNER ######################################################## */
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.616), rgba(44, 42, 42, 0.726)), url("\\ccs-adserv\Lab_AD\lcabayao\Desktop\OIP.jpg") no-repeat;
+    background-size: cover;
+}
+
+#banner .text {
+    text-shadow: 0 0 20px #84148a, 0 0 40px #aa0c7b;
+}
+/* ################################################## END BANNER ######################################################## */
+
+
+
+/* ################################################## SECTION ####################################################### */
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* ################################################## END SECTION ####################################################### */
+
+
+
+/* ################################################### BUTTON ####################################################### */
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    border-radius: 3;
+    font-weight: 800;
+}
+
+.btn-brand {
+    background-color: #8450BD;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #000;
+    border-color: purple;
+    text-shadow: 0 0 20px #ff0000, 0 0 40px #606060;
+}
+
+.btn-outlined-brand {
+    color: rgb(81, 221, 11);
+    background-color: transparent;
+    border-color: peru;
+}
+
+.btn-outlined-brand:hover {
+    background-color: rgb(208, 16, 112);
+}
+/* ################################################### END BUTTON ####################################################### */
+
+
+
+/* #################################################### ROW ########################################################## */
+.row {
+    text-align: justify;
+}
+/* #################################################### END ROW ########################################################## */
+
+
+
+/* #################################################### PORTFOILIO ############################################################## */
+#portfolio {
+    background: linear-gradient(to right, hsla(123, 60%, 48%, 0.616), rgba(24, 188, 225, 0.726)), no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 70vh;
+}
+
+/* #################################################### END PORTFOLIO ############################################################## */
+
+
+#contact .social-media {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#contact .social-media li a {
+    color: #000;
+}
+
+#contact .social-media li {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+#contact .social-media li:hover {
+   background-color: #fff;
+}
+
+
+/* #################################################### SKILLS ################################################################### */
+
+.skill li {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar {
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.28, .8, .25, 1);
+}
+
+.bar:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(66, 24, 216) 0%, rgb(232, 10, 158)100%);
+}
+
+.html {
+    width: 40%;
+    animation: html 3s;
+}
+
+.css {
+    width: 15%;
+    animation: css 3s;
+}
+
+.php {
+    width: 10%;
+    animation: php 3s;
+}
+
+.javascript {
+    width: 20%;
+    animation: javascript 3s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 15%;
+    }
+}
+
+@keyframes php {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 10%;
+    }
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+
+/* #################################################### END SKILLS ################################################################### */
+
+/* ##################################################### FOOTER ######################################################################*/
+.footer_section {
+    background-color: #222831;
+    color: #ffffff;
+    text-align: center;
+  }
+  .footer_section h4 {
+    font-size: 28px;
+  }
+  .footer_section h4,
+  .footer_section .footer-body {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+  }
+  .footer_section p {
+    color: #dbdbdb;
+  }
+  .footer_section .footer-col {
+    margin-bottom: 30px;
+  }
+  .footer_section .footer_contact .contact_link_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer_section .footer_contact .contact_link_box a {
+    margin: 5px 0;
+    color: #ffffff;
+  }
+  .footer_section .footer_contact .contact_link_box a i {
+    margin-right: 5px;
+  }
+  .footer_section .footer_contact .contact_link_box a:hover {
+    color: #23e9d9;
+  }
+  .footer_section .footer-body {
+    display: block;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 1;
+    color: #ffffff;
+  }
+  .footer_section .footer-info {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .footer_section .footer-info p {
+    color: #ffffff;
+    margin: 0;
+  }
+  .footer_section .footer-info p a {
+    color: inherit;
+    text-decoration: none;
+  }
+  /*################################################################ FOOTER END #########################################################################*/

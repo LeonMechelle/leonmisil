@@ -1,0 +1,137 @@
+:root {
+    --bg1: #2d2a2d;
+    --bg2:rgb(44,42,42);
+    --body: rgb(95,86,86);
+    --brand: #F2B03B;
+    --white: rgb(235,235,235);
+    --p: rgb(161,150,150);
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--body);
+    line-height: 1.8;
+    
+    
+}
+
+section {
+    padding-top: 100px;
+    
+}
+
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(file:///C:/Users/Acer/Desktop/LEON/TAN%20AWAN%20COFFEE%20SHOP.jpg);
+    background-size: cover;
+}  
+ 
+h2{
+    color: aqua;
+    
+}
+
+H3{
+    color: rgb(14, 15, 15);
+}
+.btn{
+    padding: 15px 30px ;
+    transition: all 0.4 ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+.btn-brand{
+    background-color: aqua;
+    border-color: black;
+    
+}a
+.btn-brand:hover{
+    background-color: rgb(141, 17, 199);
+    color: rgb(224, 137, 6);
+    border-color: rgb(172, 8, 187);
+}
+section{
+    padding: 100px;
+    padding-bottom: 100px;
+    
+ 
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.icon-img-box{
+    width: 40%;
+
+}
+.card{
+    transition: background-color 0.3s, 0.3s;
+}
+.card:hover{
+    background-color: bisque;
+}
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: violet;
+}
+.btn-outlined-brand{
+    background-color: transparent;
+    border-color: blue;
+}
+.btn-outlined-brand:hover{
+    background-color: blueviolet;
+    border-color: black;
+}
+#cta {
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(file:///C:/Users/Acer/Desktop/LEON/view.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+}
+#reviews{
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(file:///C:/Users/Acer/Desktop/LEON/view.jpg);
+    background-size: cover;
+}
+
+.testimonials {
+ background-color: var(--bg2);
+ padding: 30px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+
+#reviews a {
+color:  var(--brand);
+}
+
+#services {
+    background-image: url(file:///C:/Users/Acer/Desktop/LEON/view.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: azure;
+}
+
+.navbar {
+    background-color: bisque; /* Replace with the desired background color */
+}
+
+.navbar-nav .nav-link {
+    color: black; /* Replace with the desired section color */
+}
+
+#activities {
+    background-image: url(file:///C:/Users/Acer/Desktop/LEON/view.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: azure;
+}
