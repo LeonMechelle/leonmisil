@@ -84,7 +84,7 @@ section{
     border-color: black;
 }
 #cta {
-    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(file:///C:/Users/Acer/Desktop/LEON/view.jpg);
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(view.jpg);
     background-size: cover;
     min-height: 100vh;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@ section{
 }
 #reviews{
     min-height: 100vh;
-    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(file:///C:/Users/Acer/Desktop/LEON/view.jpg);
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(view.jpg);
     background-size: cover;
 }
 
@@ -113,7 +113,7 @@ color:  var(--brand);
 }
 
 #services {
-    background-image: url(file:///C:/Users/Acer/Desktop/LEON/view.jpg);
+    background-image: url(view.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -129,7 +129,7 @@ color:  var(--brand);
 }
 
 #activities {
-    background-image: url(file:///C:/Users/Acer/Desktop/LEON/view.jpg);
+    background-image: url(view.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
